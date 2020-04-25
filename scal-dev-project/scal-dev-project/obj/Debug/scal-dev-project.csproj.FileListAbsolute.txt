@@ -10,3 +10,15 @@ C:\Users\cesar\Desktop\2020\Proyectos\scal-dev\scal-dev-project\scal-dev-project
 C:\Users\cesar\Desktop\2020\Proyectos\scal-dev\scal-dev-project\scal-dev-project\obj\Debug\scal_dev_project.frmDescriptiva.resources
 C:\Users\cesar\Desktop\2020\Proyectos\scal-dev\scal-dev-project\scal-dev-project\obj\Debug\scal_dev_project.frmDashboard.resources
 C:\Users\cesar\Desktop\2020\Proyectos\scal-dev\scal-dev-project\scal-dev-project\obj\Debug\scal_dev_project.MDIStatisticalSoftware.resources
+C:\Users\julio\Documents\GitHub\scal-dev\scal-dev-project\scal-dev-project\bin\Debug\scal-dev-project.exe.config
+C:\Users\julio\Documents\GitHub\scal-dev\scal-dev-project\scal-dev-project\bin\Debug\scal-dev-project.exe
+C:\Users\julio\Documents\GitHub\scal-dev\scal-dev-project\scal-dev-project\bin\Debug\scal-dev-project.pdb
+C:\Users\julio\Documents\GitHub\scal-dev\scal-dev-project\scal-dev-project\obj\Debug\scal-dev-project.csprojAssemblyReference.cache
+C:\Users\julio\Documents\GitHub\scal-dev\scal-dev-project\scal-dev-project\obj\Debug\scal_dev_project.MDIStatisticalSoftware.resources
+C:\Users\julio\Documents\GitHub\scal-dev\scal-dev-project\scal-dev-project\obj\Debug\scal_dev_project.frmDashboard.resources
+C:\Users\julio\Documents\GitHub\scal-dev\scal-dev-project\scal-dev-project\obj\Debug\scal_dev_project.frmDescriptiva.resources
+C:\Users\julio\Documents\GitHub\scal-dev\scal-dev-project\scal-dev-project\obj\Debug\scal_dev_project.Properties.Resources.resources
+C:\Users\julio\Documents\GitHub\scal-dev\scal-dev-project\scal-dev-project\obj\Debug\scal-dev-project.csproj.GenerateResource.cache
+C:\Users\julio\Documents\GitHub\scal-dev\scal-dev-project\scal-dev-project\obj\Debug\scal-dev-project.csproj.CoreCompileInputs.cache
+C:\Users\julio\Documents\GitHub\scal-dev\scal-dev-project\scal-dev-project\obj\Debug\scal-dev-project.exe
+C:\Users\julio\Documents\GitHub\scal-dev\scal-dev-project\scal-dev-project\obj\Debug\scal-dev-project.pdb

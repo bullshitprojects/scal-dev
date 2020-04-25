@@ -86,6 +86,12 @@ namespace scal_dev_project
             dashboard = null;
         }
 
+
+        private void frmDescriptiva_Load(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }
 
