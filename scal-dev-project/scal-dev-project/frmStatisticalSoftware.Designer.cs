@@ -32,7 +32,6 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.descriptivaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.analizarUnaVariableToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.dashBoardToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.probabilidadToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -52,8 +51,7 @@
             // descriptivaToolStripMenuItem
             // 
             this.descriptivaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.analizarUnaVariableToolStripMenuItem,
-            this.dashBoardToolStripMenuItem});
+            this.analizarUnaVariableToolStripMenuItem});
             this.descriptivaToolStripMenuItem.Name = "descriptivaToolStripMenuItem";
             this.descriptivaToolStripMenuItem.Size = new System.Drawing.Size(97, 24);
             this.descriptivaToolStripMenuItem.Text = "Descriptiva";
@@ -64,13 +62,6 @@
             this.analizarUnaVariableToolStripMenuItem.Size = new System.Drawing.Size(234, 26);
             this.analizarUnaVariableToolStripMenuItem.Text = "Analizar Una Variable";
             this.analizarUnaVariableToolStripMenuItem.Click += new System.EventHandler(this.analizarUnaVariableToolStripMenuItem_Click);
-            // 
-            // dashBoardToolStripMenuItem
-            // 
-            this.dashBoardToolStripMenuItem.Name = "dashBoardToolStripMenuItem";
-            this.dashBoardToolStripMenuItem.Size = new System.Drawing.Size(234, 26);
-            this.dashBoardToolStripMenuItem.Text = "DashBoard";
-            this.dashBoardToolStripMenuItem.Click += new System.EventHandler(this.dashBoardToolStripMenuItem_Click);
             // 
             // probabilidadToolStripMenuItem
             // 
@@ -109,7 +100,6 @@
         private System.Windows.Forms.ToolStripMenuItem descriptivaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem probabilidadToolStripMenuItem;
         public System.Windows.Forms.ToolStripMenuItem analizarUnaVariableToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem dashBoardToolStripMenuItem;
     }
 }
 

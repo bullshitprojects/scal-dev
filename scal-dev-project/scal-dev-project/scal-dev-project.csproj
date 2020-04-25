@@ -48,6 +48,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Descriptiva.cs" />
+    <Compile Include="Frecuencias.cs" />
     <Compile Include="frmStatisticalSoftware.cs">
       <SubType>Form</SubType>
     </Compile>

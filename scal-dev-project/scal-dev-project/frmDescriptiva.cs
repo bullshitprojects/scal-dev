@@ -18,6 +18,7 @@ namespace scal_dev_project
         ArrayList datos;
         Descriptiva desc;
         private frmDashboard dashboard;
+ 
 
         public frmDescriptiva()
         {
@@ -29,12 +30,12 @@ namespace scal_dev_project
             try
             {
                 string variable = txtvariable.Text;
-                int clases = int.Parse(txtclases.Text);
-                desc = new Descriptiva(datos,variable,clases);
+                //int clases = int.Parse(txtclases.Text);
+                desc = new Descriptiva(datos,variable);
 
                 if (dashboard == null)
                 {
-                    dashboard = new frmDashboard(datos, variable, clases);
+                    dashboard = new frmDashboard(datos, variable);
                     dashboard.FormClosed += new FormClosedEventHandler(CerrarForm);
                     dashboard.Show();
                 }
@@ -56,15 +57,21 @@ namespace scal_dev_project
                 datos = new ArrayList();
                 for (int i = 0; i < dgvDatos.RowCount - 1; i++)
                 {
-                    datos.Add(Double.Parse(dgvDatos.Rows[i].Cells[0].Value.ToString()));
+                    if (dgvDatos.Rows[i].Cells[0].Value.ToString()!=null)
+                    {
+                        datos.Add(Double.Parse(dgvDatos.Rows[i].Cells[0].Value.ToString()));
+                    }                   
                 }
                 datos.Sort();
-                desc = new Descriptiva(datos, "", 0);
+                desc = new Descriptiva(datos, "");
                 txtLi.Text = datos[0].ToString();
                 txtLs.Text = datos[dgvDatos.RowCount - 2].ToString();
+                txtamplitud.Text = desc.Amplitud().ToString();
+                txtclases.Text = desc.Clases().ToString();
+                txtanchoc.Text = desc.AnchoClase().ToString();
                 txtmenor.Text = "Menor: " + datos[0].ToString();
                 txtmayor.Text = "Mayor: " + datos[dgvDatos.RowCount - 2].ToString();
-                txtcantidad.Text = "Cantiad: " + (dgvDatos.RowCount - 2).ToString();
+                txtcantidad.Text = "Cantiad: " + (dgvDatos.RowCount - 1).ToString();
                 txtmedia.Text = "Media: " + Math.Round(desc.Media(),2);
                 txtmediana.Text = "Mediana: " + desc.Mediana().ToString();
             }
@@ -78,7 +85,6 @@ namespace scal_dev_project
         {
             dashboard = null;
         }
-
 
     }
 }
