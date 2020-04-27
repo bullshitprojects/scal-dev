@@ -74,6 +74,7 @@ namespace scal_dev_project
                 txtcantidad.Text = "Cantiad: " + (dgvDatos.RowCount - 1).ToString();
                 txtmedia.Text = "Media: " + Math.Round(desc.Media(),2);
                 txtmediana.Text = "Mediana: " + desc.Mediana().ToString();
+                txtmoda.Text = "Moda: " + desc.Moda().ToString();
             }
             catch (Exception)
             {
@@ -92,6 +93,7 @@ namespace scal_dev_project
 
         }
 
+        
     }
 }
 

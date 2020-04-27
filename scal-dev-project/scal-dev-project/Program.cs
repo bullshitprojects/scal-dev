@@ -16,7 +16,22 @@ namespace scal_dev_project
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MDIStatisticalSoftware());
+            GUI.Splash splash = new GUI.Splash();
+            splash.FormClosed += SplashClosed;
+            splash.Show();
+            Application.Run();
+        }
+        private static void SplashClosed(object sender, FormClosedEventArgs e)
+        {
+            ((Form)sender).FormClosed -= SplashClosed;
+            if (Application.OpenForms.Count==0)
+            {
+                Application.ExitThread();
+            }
+            else
+            {
+                Application.OpenForms[0].FormClosed += SplashClosed;
+            }
         }
     }
 }

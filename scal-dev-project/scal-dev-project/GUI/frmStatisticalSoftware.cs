@@ -15,7 +15,6 @@ namespace scal_dev_project
     public partial class MDIStatisticalSoftware : Form
     {
         private frmDescriptiva descriptiva;
-        private frmDashboard dashboard;
 
         public MDIStatisticalSoftware()
         {
@@ -57,6 +56,10 @@ namespace scal_dev_project
             //}
         }
 
+        private void MDIStatisticalSoftware_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 

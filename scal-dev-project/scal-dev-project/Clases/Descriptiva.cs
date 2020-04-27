@@ -59,8 +59,29 @@ namespace scal_dev_project
 
         public double Moda()
         {
-            //Pendiente de programar
-            return 0;
+            double n, val=0, rep=0;
+            for (int i = 0; i < datos.Count; i++)
+            {
+                n = Convert.ToDouble(datos[i]);
+                if (rep<contar(n))
+                {
+                    rep = contar(n);
+                    val = Convert.ToDouble(datos[i]);
+                }
+            }
+            return val;
+        }
+        private int contar(double num)
+        {
+            int x = 0;
+            for (int i = 0; i < datos.Count; i++)
+            {
+                if (num==Convert.ToDouble(datos[i]))
+                {
+                    x++;
+                }
+            }
+            return x;
         }
 
         public double Amplitud()

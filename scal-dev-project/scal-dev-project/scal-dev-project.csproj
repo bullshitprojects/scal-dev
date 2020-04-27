@@ -48,36 +48,54 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Clases\Operacion.cs" />
-    <Compile Include="Descriptiva.cs" />
-    <Compile Include="Frecuencias.cs" />
-    <Compile Include="frmStatisticalSoftware.cs">
+    <Compile Include="Clases\Descriptiva.cs" />
+    <Compile Include="Clases\Frecuencias.cs" />
+    <Compile Include="GUI\frmMain.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmStatisticalSoftware.Designer.cs">
+    <Compile Include="GUI\frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frmStatisticalSoftware.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frmStatisticalSoftware.Designer.cs">
       <DependentUpon>frmStatisticalSoftware.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmDashboard.cs">
+    <Compile Include="GUI\frmDashboard.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmDashboard.Designer.cs">
+    <Compile Include="GUI\frmDashboard.Designer.cs">
       <DependentUpon>frmDashboard.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmDescriptiva.cs">
+    <Compile Include="GUI\frmDescriptiva.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmDescriptiva.Designer.cs">
+    <Compile Include="GUI\frmDescriptiva.Designer.cs">
       <DependentUpon>frmDescriptiva.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Splash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Splash.Designer.cs">
+      <DependentUpon>Splash.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="frmStatisticalSoftware.resx">
+    <EmbeddedResource Include="GUI\frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmStatisticalSoftware.resx">
       <DependentUpon>frmStatisticalSoftware.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmDashboard.resx">
+    <EmbeddedResource Include="GUI\frmDashboard.resx">
       <DependentUpon>frmDashboard.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmDescriptiva.resx">
+    <EmbeddedResource Include="GUI\frmDescriptiva.resx">
       <DependentUpon>frmDescriptiva.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Splash.resx">
+      <DependentUpon>Splash.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
