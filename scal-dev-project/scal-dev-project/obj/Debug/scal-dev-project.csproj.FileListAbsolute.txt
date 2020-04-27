@@ -24,3 +24,5 @@ C:\Users\julio\Documents\GitHub\scal-dev\scal-dev-project\scal-dev-project\obj\D
 C:\Users\julio\Documents\GitHub\scal-dev\scal-dev-project\scal-dev-project\obj\Debug\scal-dev-project.pdb
 C:\Users\julio\Documents\GitHub\scal-dev\scal-dev-project\scal-dev-project\obj\Debug\scal_dev_project.GUI.Splash.resources
 C:\Users\julio\Documents\GitHub\scal-dev\scal-dev-project\scal-dev-project\obj\Debug\scal_dev_project.GUI.frmMain.resources
+C:\Users\cesar\Desktop\2020\Proyectos\scal-dev\scal-dev-project\scal-dev-project\obj\Debug\scal_dev_project.GUI.frmMain.resources
+C:\Users\cesar\Desktop\2020\Proyectos\scal-dev\scal-dev-project\scal-dev-project\obj\Debug\scal_dev_project.GUI.Splash.resources
