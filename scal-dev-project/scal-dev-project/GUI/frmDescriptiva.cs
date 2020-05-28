@@ -30,24 +30,9 @@ namespace scal_dev_project
         [DllImport("User32.dll")]
         public static extern int SendMessage(IntPtr hWnd, int Msg, int wParam, int lParam);
         //mover la ventana haciendo click en la parte superior --Fin
-
-        //Bordes redondeados -- Inicio
-        [DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]
-        private static extern IntPtr CreateRoundRectRgn
-        (
-            int nLeftRect,     // x-coordinate of upper-left corner
-            int nTopRect,      // y-coordinate of upper-left corner
-            int nRightRect,    // x-coordinate of lower-right corner
-            int nBottomRect,   // y-coordinate of lower-right corner
-            int nWidthEllipse, // height of ellipse
-            int nHeightEllipse // width of ellipse
-        );
-        //Bordes redondeados -- Fin
         public frmDescriptiva()
         {
             InitializeComponent();
-
-            Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 15, 15));//Ejecución del código de redondeado
         }
 
         private void button1_Click(object sender, EventArgs e)
