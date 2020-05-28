@@ -63,9 +63,9 @@ namespace scal_dev_project.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap icons8_close_window_32 {
+        internal static System.Drawing.Bitmap icons8_graph_report_24 {
             get {
-                object obj = ResourceManager.GetObject("icons8-close-window-32", resourceCulture);
+                object obj = ResourceManager.GetObject("icons8-graph-report-24", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +73,39 @@ namespace scal_dev_project.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap icons8_minimize_window_32 {
+        internal static System.Drawing.Bitmap icons8_macos_close_30 {
             get {
-                object obj = ResourceManager.GetObject("icons8-minimize-window-32", resourceCulture);
+                object obj = ResourceManager.GetObject("icons8-macos-close-30", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_macos_minimize_30_2_ {
+            get {
+                object obj = ResourceManager.GetObject("icons8-macos-minimize-30(2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap logofull {
+            get {
+                object obj = ResourceManager.GetObject("logofull", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap s_c_a_l {
+            get {
+                object obj = ResourceManager.GetObject("s c a l", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
