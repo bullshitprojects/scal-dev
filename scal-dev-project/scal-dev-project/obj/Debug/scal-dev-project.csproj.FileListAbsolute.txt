@@ -25,3 +25,4 @@ C:\Users\julio\Documents\GitHub\scal-dev\scal-dev-project\scal-dev-project\obj\D
 C:\Users\julio\Documents\GitHub\scal-dev\scal-dev-project\scal-dev-project\obj\Debug\scal-dev-project.csproj.CoreCompileInputs.cache
 C:\Users\julio\Documents\GitHub\scal-dev\scal-dev-project\scal-dev-project\obj\Debug\scal-dev-project.exe
 C:\Users\julio\Documents\GitHub\scal-dev\scal-dev-project\scal-dev-project\obj\Debug\scal-dev-project.pdb
+C:\Users\julio\Documents\GitHub\scal-dev\scal-dev-project\scal-dev-project\obj\Debug\scal-dev-project.csprojAssemblyReference.cache
