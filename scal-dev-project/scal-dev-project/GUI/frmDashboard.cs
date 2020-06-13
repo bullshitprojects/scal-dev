@@ -62,5 +62,15 @@ namespace scal_dev_project
             LlenarFrecuencias();
             LlenarGrafica();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            //Grafica de barras
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            //Grafica de pastel
+        }
     }
 }

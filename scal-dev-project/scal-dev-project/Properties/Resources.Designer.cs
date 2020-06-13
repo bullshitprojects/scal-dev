@@ -63,6 +63,16 @@ namespace scal_dev_project.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_about_24 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-about-24", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_graph_report_24 {
             get {
                 object obj = ResourceManager.GetObject("icons8-graph-report-24", resourceCulture);

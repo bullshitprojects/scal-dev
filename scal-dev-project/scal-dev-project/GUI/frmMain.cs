@@ -122,5 +122,10 @@ namespace scal_dev_project.GUI
         {
             mostrarSubMenu(panelSubDescriptiva);
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            abrirForm(new frmAcercaDe());
+        }
     }
 }
