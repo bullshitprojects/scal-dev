@@ -36,9 +36,9 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panelSubDescriptiva = new System.Windows.Forms.Panel();
-            this.btnDescriptiva = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.button2 = new System.Windows.Forms.Button();
+            this.btnDescriptiva = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnMinimize = new System.Windows.Forms.Button();
@@ -117,25 +117,8 @@
             this.panelSubDescriptiva.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelSubDescriptiva.Location = new System.Drawing.Point(0, 328);
             this.panelSubDescriptiva.Name = "panelSubDescriptiva";
-            this.panelSubDescriptiva.Size = new System.Drawing.Size(248, 48);
+            this.panelSubDescriptiva.Size = new System.Drawing.Size(248, 42);
             this.panelSubDescriptiva.TabIndex = 16;
-            // 
-            // btnDescriptiva
-            // 
-            this.btnDescriptiva.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
-            this.btnDescriptiva.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnDescriptiva.FlatAppearance.BorderColor = System.Drawing.Color.Gray;
-            this.btnDescriptiva.FlatAppearance.BorderSize = 0;
-            this.btnDescriptiva.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDescriptiva.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDescriptiva.ForeColor = System.Drawing.Color.White;
-            this.btnDescriptiva.Location = new System.Drawing.Point(0, 0);
-            this.btnDescriptiva.Name = "btnDescriptiva";
-            this.btnDescriptiva.Size = new System.Drawing.Size(248, 40);
-            this.btnDescriptiva.TabIndex = 0;
-            this.btnDescriptiva.Text = "Analizar una variable";
-            this.btnDescriptiva.UseVisualStyleBackColor = false;
-            this.btnDescriptiva.Click += new System.EventHandler(this.btnDescriptiva_Click);
             // 
             // panel1
             // 
@@ -163,7 +146,7 @@
             this.button2.ForeColor = System.Drawing.Color.White;
             this.button2.Image = global::scal_dev_project.Properties.Resources.icons8_about_24;
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(0, 376);
+            this.button2.Location = new System.Drawing.Point(0, 370);
             this.button2.Name = "button2";
             this.button2.Padding = new System.Windows.Forms.Padding(5, 0, 100, 0);
             this.button2.Size = new System.Drawing.Size(248, 40);
@@ -171,6 +154,26 @@
             this.button2.Text = "Acerca De";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // btnDescriptiva
+            // 
+            this.btnDescriptiva.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
+            this.btnDescriptiva.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnDescriptiva.FlatAppearance.BorderColor = System.Drawing.Color.Gray;
+            this.btnDescriptiva.FlatAppearance.BorderSize = 0;
+            this.btnDescriptiva.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDescriptiva.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDescriptiva.ForeColor = System.Drawing.Color.White;
+            this.btnDescriptiva.Image = global::scal_dev_project.Properties.Resources.icons8_combo_chart_24;
+            this.btnDescriptiva.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDescriptiva.Location = new System.Drawing.Point(0, 0);
+            this.btnDescriptiva.Name = "btnDescriptiva";
+            this.btnDescriptiva.Padding = new System.Windows.Forms.Padding(25, 0, 15, 0);
+            this.btnDescriptiva.Size = new System.Drawing.Size(248, 40);
+            this.btnDescriptiva.TabIndex = 0;
+            this.btnDescriptiva.Text = "Analizar una variable";
+            this.btnDescriptiva.UseVisualStyleBackColor = false;
+            this.btnDescriptiva.Click += new System.EventHandler(this.btnDescriptiva_Click);
             // 
             // button1
             // 
