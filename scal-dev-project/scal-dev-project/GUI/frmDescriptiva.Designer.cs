@@ -34,6 +34,13 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmDescriptiva));
             this.panel2 = new System.Windows.Forms.Panel();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.txtmayor = new System.Windows.Forms.Label();
+            this.txtmenor = new System.Windows.Forms.Label();
+            this.txtmoda = new System.Windows.Forms.Label();
+            this.txtmediana = new System.Windows.Forms.Label();
+            this.txtmedia = new System.Windows.Forms.Label();
+            this.txtcantidad = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.txtanchoc = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
@@ -52,17 +59,10 @@
             this.txtTitulo = new System.Windows.Forms.Label();
             this.dgvDatos = new System.Windows.Forms.DataGridView();
             this.variable = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.txtmayor = new System.Windows.Forms.Label();
-            this.txtmenor = new System.Windows.Forms.Label();
-            this.txtmoda = new System.Windows.Forms.Label();
-            this.txtmediana = new System.Windows.Forms.Label();
-            this.txtmedia = new System.Windows.Forms.Label();
-            this.txtcantidad = new System.Windows.Forms.Label();
             this.panel2.SuspendLayout();
+            this.panel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDatos)).BeginInit();
-            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel2
@@ -78,6 +78,93 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(837, 534);
             this.panel2.TabIndex = 3;
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(152)))), ((int)(((byte)(158)))));
+            this.panel1.Controls.Add(this.txtmayor);
+            this.panel1.Controls.Add(this.txtmenor);
+            this.panel1.Controls.Add(this.txtmoda);
+            this.panel1.Controls.Add(this.txtmediana);
+            this.panel1.Controls.Add(this.txtmedia);
+            this.panel1.Controls.Add(this.txtcantidad);
+            this.panel1.Location = new System.Drawing.Point(56, 494);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(781, 39);
+            this.panel1.TabIndex = 11;
+            // 
+            // txtmayor
+            // 
+            this.txtmayor.AutoSize = true;
+            this.txtmayor.Font = new System.Drawing.Font("Open Sans", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtmayor.ForeColor = System.Drawing.Color.White;
+            this.txtmayor.Location = new System.Drawing.Point(652, 6);
+            this.txtmayor.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.txtmayor.Name = "txtmayor";
+            this.txtmayor.Size = new System.Drawing.Size(58, 20);
+            this.txtmayor.TabIndex = 16;
+            this.txtmayor.Text = "Mayor:";
+            // 
+            // txtmenor
+            // 
+            this.txtmenor.AutoSize = true;
+            this.txtmenor.Font = new System.Drawing.Font("Open Sans", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtmenor.ForeColor = System.Drawing.Color.White;
+            this.txtmenor.Location = new System.Drawing.Point(536, 6);
+            this.txtmenor.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.txtmenor.Name = "txtmenor";
+            this.txtmenor.Size = new System.Drawing.Size(59, 20);
+            this.txtmenor.TabIndex = 15;
+            this.txtmenor.Text = "Menor:";
+            // 
+            // txtmoda
+            // 
+            this.txtmoda.AutoSize = true;
+            this.txtmoda.Font = new System.Drawing.Font("Open Sans", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtmoda.ForeColor = System.Drawing.Color.White;
+            this.txtmoda.Location = new System.Drawing.Point(425, 6);
+            this.txtmoda.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.txtmoda.Name = "txtmoda";
+            this.txtmoda.Size = new System.Drawing.Size(53, 20);
+            this.txtmoda.TabIndex = 14;
+            this.txtmoda.Text = "Moda:";
+            // 
+            // txtmediana
+            // 
+            this.txtmediana.AutoSize = true;
+            this.txtmediana.Font = new System.Drawing.Font("Open Sans", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtmediana.ForeColor = System.Drawing.Color.White;
+            this.txtmediana.Location = new System.Drawing.Point(300, 6);
+            this.txtmediana.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.txtmediana.Name = "txtmediana";
+            this.txtmediana.Size = new System.Drawing.Size(73, 20);
+            this.txtmediana.TabIndex = 13;
+            this.txtmediana.Text = "Mediana:";
+            // 
+            // txtmedia
+            // 
+            this.txtmedia.AutoSize = true;
+            this.txtmedia.Font = new System.Drawing.Font("Open Sans", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtmedia.ForeColor = System.Drawing.Color.White;
+            this.txtmedia.Location = new System.Drawing.Point(193, 6);
+            this.txtmedia.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.txtmedia.Name = "txtmedia";
+            this.txtmedia.Size = new System.Drawing.Size(56, 20);
+            this.txtmedia.TabIndex = 12;
+            this.txtmedia.Text = "Media:";
+            // 
+            // txtcantidad
+            // 
+            this.txtcantidad.AutoSize = true;
+            this.txtcantidad.Font = new System.Drawing.Font("Open Sans", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtcantidad.ForeColor = System.Drawing.Color.White;
+            this.txtcantidad.Location = new System.Drawing.Point(60, 6);
+            this.txtcantidad.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.txtcantidad.Name = "txtcantidad";
+            this.txtcantidad.Size = new System.Drawing.Size(74, 20);
+            this.txtcantidad.TabIndex = 11;
+            this.txtcantidad.Text = "Cantidad:";
             // 
             // groupBox1
             // 
@@ -329,93 +416,6 @@
             this.variable.Name = "variable";
             this.variable.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(152)))), ((int)(((byte)(158)))));
-            this.panel1.Controls.Add(this.txtmayor);
-            this.panel1.Controls.Add(this.txtmenor);
-            this.panel1.Controls.Add(this.txtmoda);
-            this.panel1.Controls.Add(this.txtmediana);
-            this.panel1.Controls.Add(this.txtmedia);
-            this.panel1.Controls.Add(this.txtcantidad);
-            this.panel1.Location = new System.Drawing.Point(56, 494);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(781, 39);
-            this.panel1.TabIndex = 11;
-            // 
-            // txtmayor
-            // 
-            this.txtmayor.AutoSize = true;
-            this.txtmayor.Font = new System.Drawing.Font("Open Sans", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtmayor.ForeColor = System.Drawing.Color.White;
-            this.txtmayor.Location = new System.Drawing.Point(652, 6);
-            this.txtmayor.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.txtmayor.Name = "txtmayor";
-            this.txtmayor.Size = new System.Drawing.Size(58, 20);
-            this.txtmayor.TabIndex = 16;
-            this.txtmayor.Text = "Mayor:";
-            // 
-            // txtmenor
-            // 
-            this.txtmenor.AutoSize = true;
-            this.txtmenor.Font = new System.Drawing.Font("Open Sans", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtmenor.ForeColor = System.Drawing.Color.White;
-            this.txtmenor.Location = new System.Drawing.Point(536, 6);
-            this.txtmenor.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.txtmenor.Name = "txtmenor";
-            this.txtmenor.Size = new System.Drawing.Size(59, 20);
-            this.txtmenor.TabIndex = 15;
-            this.txtmenor.Text = "Menor:";
-            // 
-            // txtmoda
-            // 
-            this.txtmoda.AutoSize = true;
-            this.txtmoda.Font = new System.Drawing.Font("Open Sans", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtmoda.ForeColor = System.Drawing.Color.White;
-            this.txtmoda.Location = new System.Drawing.Point(425, 6);
-            this.txtmoda.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.txtmoda.Name = "txtmoda";
-            this.txtmoda.Size = new System.Drawing.Size(53, 20);
-            this.txtmoda.TabIndex = 14;
-            this.txtmoda.Text = "Moda:";
-            // 
-            // txtmediana
-            // 
-            this.txtmediana.AutoSize = true;
-            this.txtmediana.Font = new System.Drawing.Font("Open Sans", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtmediana.ForeColor = System.Drawing.Color.White;
-            this.txtmediana.Location = new System.Drawing.Point(300, 6);
-            this.txtmediana.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.txtmediana.Name = "txtmediana";
-            this.txtmediana.Size = new System.Drawing.Size(73, 20);
-            this.txtmediana.TabIndex = 13;
-            this.txtmediana.Text = "Mediana:";
-            // 
-            // txtmedia
-            // 
-            this.txtmedia.AutoSize = true;
-            this.txtmedia.Font = new System.Drawing.Font("Open Sans", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtmedia.ForeColor = System.Drawing.Color.White;
-            this.txtmedia.Location = new System.Drawing.Point(193, 6);
-            this.txtmedia.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.txtmedia.Name = "txtmedia";
-            this.txtmedia.Size = new System.Drawing.Size(56, 20);
-            this.txtmedia.TabIndex = 12;
-            this.txtmedia.Text = "Media:";
-            // 
-            // txtcantidad
-            // 
-            this.txtcantidad.AutoSize = true;
-            this.txtcantidad.Font = new System.Drawing.Font("Open Sans", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtcantidad.ForeColor = System.Drawing.Color.White;
-            this.txtcantidad.Location = new System.Drawing.Point(60, 6);
-            this.txtcantidad.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.txtcantidad.Name = "txtcantidad";
-            this.txtcantidad.Size = new System.Drawing.Size(74, 20);
-            this.txtcantidad.TabIndex = 11;
-            this.txtcantidad.Text = "Cantidad:";
-            // 
             // frmDescriptiva
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -432,11 +432,11 @@
             this.Load += new System.EventHandler(this.frmDescriptiva_Load);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDatos)).EndInit();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
             this.ResumeLayout(false);
 
         }

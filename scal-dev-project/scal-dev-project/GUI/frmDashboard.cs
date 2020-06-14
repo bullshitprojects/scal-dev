@@ -9,6 +9,7 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 using System.Windows.Forms.DataVisualization.Charting;
 
 namespace scal_dev_project
@@ -40,10 +41,10 @@ namespace scal_dev_project
             chart1.Titles.Add("Histograma");
             for (int i = 0; i < series.Count; i++)
             {
-                chart1.Series["Frecuencias"].Points.AddXY(series[i],puntos[i]);
+                chart1.Series["Frecuencias"].Points.AddXY(series[i], puntos[i]);
                 chart2.Series["Frecuencias"].Points.AddXY(series[i], puntos[i]);
             }
-            
+
 
         }
         public void LlenarResumen()
@@ -66,11 +67,45 @@ namespace scal_dev_project
         private void button2_Click(object sender, EventArgs e)
         {
             //Grafica de barras
+            SaveFileDialog save = new SaveFileDialog();
+            save.InitialDirectory = @"C:\";
+            save.Title = "Selecciona una ubicación";
+            save.DefaultExt = "png";
+            save.Filter = "Imágenes png (*.png)|*.png|All files (*.*)|*.*";
+            save.FilterIndex = 1;
+            save.CheckFileExists = false;
+            save.CheckPathExists = true;
+            if (save.ShowDialog() == DialogResult.OK)
+            {
+                if (save.FileName != "")
+                {
+                    string fs = save.FileName;
+                    chart1.SaveImage(fs, ChartImageFormat.Png);
+                    MessageBox.Show("Imagen guardada correctamente en: " + fs, "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+            }
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             //Grafica de pastel
+            SaveFileDialog save = new SaveFileDialog();
+            save.InitialDirectory = @"C:\";
+            save.Title = "Selecciona una ubicación";
+            save.DefaultExt = "png";
+            save.Filter = "Imágenes png (*.png)|*.png|All files (*.*)|*.*";
+            save.FilterIndex = 1;
+            save.CheckFileExists = false;
+            save.CheckPathExists = true;
+            if (save.ShowDialog() == DialogResult.OK)
+            {
+                if (save.FileName != "")
+                {
+                    string fs = save.FileName;
+                    chart2.SaveImage(fs, ChartImageFormat.Png);
+                    MessageBox.Show("Imagen guardada correctamente en: " + fs, "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+            }
         }
     }
 }
