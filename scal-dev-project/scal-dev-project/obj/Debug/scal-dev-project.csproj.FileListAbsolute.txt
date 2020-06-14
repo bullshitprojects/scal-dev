@@ -26,7 +26,6 @@ C:\Users\julio\Documents\GitHub\scal-dev\scal-dev-project\scal-dev-project\obj\D
 C:\Users\julio\Documents\GitHub\scal-dev\scal-dev-project\scal-dev-project\obj\Debug\scal-dev-project.exe
 C:\Users\julio\Documents\GitHub\scal-dev\scal-dev-project\scal-dev-project\obj\Debug\scal-dev-project.pdb
 C:\Users\julio\Documents\GitHub\scal-dev\scal-dev-project\scal-dev-project\obj\Debug\scal_dev_project.GUI.frmAcercaDe.resources
-C:\Users\julio\Documents\GitHub\scal-dev\scal-dev-project\scal-dev-project\obj\Debug\scal-dev-project.csprojAssemblyReference.cache
 C:\Users\julio\Documents\GitHub\scal-dev\scal-dev-project\scal-dev-project\bin\Debug\scal-dev-project.exe.manifest
 C:\Users\julio\Documents\GitHub\scal-dev\scal-dev-project\scal-dev-project\bin\Debug\scal-dev-project.application
 C:\Users\julio\Documents\GitHub\scal-dev\scal-dev-project\scal-dev-project\obj\Debug\scal-dev-project.exe.manifest
